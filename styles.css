@@ -14,7 +14,7 @@ body{
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
-   background-image: url(background.png);
+   background-image: url("background.png");
    background-position: center;
     background-size: cover;
     font-weight: 700;
@@ -40,7 +40,7 @@ body{
 
 .header{
     display: flex;
-    background-image: url(20220304_122655_05.jpg);
+    background-image: url("20220304_122655_05.jpg");
     background-position: center;
     background-size: cover;
     font-weight: 900;
@@ -62,7 +62,7 @@ display:box;
 text-align: center;
 margin-left: auto;
 margin-right: auto;
-background-image: url(background.png);
+background-image: url("background.png");
 background-size: cover;
   
 }
