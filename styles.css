@@ -6,14 +6,16 @@ html{
 body{
     display:flexbox;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 .navcont {
     display:flex;
     flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
+    align-content:space-between;
+    justify-content: space-between;
    background-image: url("background.png");
    background-position: center;
     background-size: cover;
@@ -22,8 +24,10 @@ body{
     
 
 .nav a{
-    
-    align-content: center;
+    display: inline;
+    align-content:space-between;
+    text-align: left;
+    justify-content: space-between;
     display:inline-block;
     color:rgb(34, 31, 216);
     font-weight:700;
@@ -34,6 +38,8 @@ body{
     display: inline; 
     flex-wrap: wrap;
    list-style: none;
+   justify-content: space-between;
+   align-content: space-between;
 
     
 }
@@ -80,8 +86,15 @@ width: 70%;
     font-family: cursive;
     color:brown;
 }
-ul{
+ul {
     list-style: none;
+}
+
+#resume {
+    background-image: url("20220304_122655_05.jpg");background-size: cover;
+}
+section{
+    background-image: url("background.png");
 }
 @media only screen and (max-width: 350px) {
     body{font-size: 0.65rem;
