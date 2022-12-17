@@ -1,91 +1,42 @@
 html{
     font-family: monospace;
     background-color: rgb(89, 92, 92);
-    font-size: larger;
+    font-size: 20px;
 }
 body{
-    display:flexbox;
-    align-items: center;
-    justify-content: space-between;
+    margin-left: 2%;
+    margin-right: 2%;
     text-align: center;
-    margin-left: 10%;
-    margin-right: 10%;
 }
-.navcont {
-    display:flex;
-    flex-wrap: wrap;
-    align-content:space-between;
-    justify-content: space-between;
-   background-image: url("background.png");
-   background-position: center;
-    background-size: cover;
-    font-weight: 700;
-}
-    
 
-.nav a{
+.resume{
     display: inline;
-    align-content:space-between;
-    text-align: left;
-    justify-content: space-between;
-    display:inline-block;
-    color:rgb(34, 31, 216);
-    font-weight:700;
-}
-    
-.mainnav ul li {
-   
-    display: inline; 
-    flex-wrap: wrap;
-   list-style: none;
-   justify-content: space-between;
-   align-content: space-between;
-
-    
-}
-
-.header{
-    display: flex;
     background-image: url("20220304_122655_05.jpg");
     background-position: center;
     background-size: cover;
-    font-weight: 900;
-    font-family: cursive;
-    height: 250px;
-    align-items: center;
-    justify-items: flex-start;
+    flex-direction: row;
+    justify-content: space-around;
 }
-.header img{
-    height: 100%;
-    width: auto;
-padding-right: 15%;
+nav li{
+    display:inline;
+}
+
+main{
+    display:inline;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 2 2 33%;
+    justify-content: center;
+    
+}
+
+.contact li{
+    display: inline;
+    font-weight: 700;
+    font-size: 1.2em;
+}
 
 
-
-}
-.hprojects {
-display:box;
-text-align: center;
-margin-left: auto;
-margin-right: auto;
-background-image: url("background.png");
-background-size: cover;
-  
-}
-.hprojects img{
-height:70%;
-width: 70%;
-}
-.hprojects h2 {
-    font-weight: 600;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-.strong{
-    font-size: larger;
-    font-weight: 600;
-    font-family: cursive;
-    color:brown;
-}
 ul {
     list-style: none;
 }
@@ -94,7 +45,30 @@ ul {
     background-image: url("20220304_122655_05.jpg");background-size: cover;
 }
 section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
     background-image: url("background.png");
+    width: 33%;
+    height:auto;
+; 
+}
+section, h2{
+    display:flex;
+    background-color: antiquewhite;
+    border: 2px solid white;
+    border-radius: 5%;
+    position:relative;
+    text-overflow: wrap;
+    text-align: center;
+    width: 90%;
+}
+#Accomplishments li{
+    display:flex;
+    text-align: left;
+    font-size:1em;
+    line-height: 1.2;
 }
 @media only screen and (max-width: 350px) {
     body{font-size: 0.65rem;
